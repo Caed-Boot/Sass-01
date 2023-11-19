@@ -1,0 +1,14 @@
+
+
+@mixin value-images($urls) {
+    background-image: $urls;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin flexbox ($justifyContent, $alignItems){
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}

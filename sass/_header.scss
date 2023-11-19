@@ -1,0 +1,34 @@
+@use 'variables';
+@use 'mixins';
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 64px;
+    background-color: variables.$redColor;
+
+    &__logo{
+        @include mixins.value-images(url("../img/logo.png"));
+        width:64px;
+        height: 64px;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 10px;
+        width: 50%;
+        background-color: aqua;
+    
+        &__ul {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+
+}
+

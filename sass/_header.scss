@@ -3,23 +3,21 @@
 
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 64px;
+
+    @include mixins.flexbox(space-between, center);
+    @include mixins.sizes(100%, 64px);
     background-color: variables.$redColor;
 
     &__logo{
         @include mixins.value-images(url("../img/logo.png"));
-        width:64px;
-        height: 64px;
+        @include mixins.sizes (64px, 64px)
     }
 
 
     &__title {
-        width: 100px;
-        height: 64;
+        @include mixins.flexbox(flex-start, center);
+        @include mixins.sizes(100px, 64px);
+        margin-right: 10px;
         font-size: 2rem;
         font-family:fantasy;
         color: rgb(240, 241, 242);

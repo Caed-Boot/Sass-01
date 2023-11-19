@@ -15,8 +15,12 @@
   height: 64px;
 }
 .header__title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 100px;
-  height: 64;
+  height: 64px;
+  margin-right: 10px;
   font-size: 2rem;
   font-family: fantasy;
   color: rgb(240, 241, 242);

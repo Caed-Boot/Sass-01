@@ -1,0 +1,13 @@
+@use 'mixins';
+
+.hero {
+    width: 100%;
+
+    
+    &__main-image{
+        @include mixins.value-images(url("../img/main_image.jpg"));
+        @include mixins.sizes(100%, 250px);
+        filter: brightness(0.5);
+    }
+
+}

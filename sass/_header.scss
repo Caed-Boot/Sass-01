@@ -2,11 +2,15 @@
 @use 'mixins';
 
 
+
 .header{
 
     @include mixins.flexbox(space-between, center);
     @include mixins.sizes(100%, 64px);
     background-color: variables.$redColor;
+    position: fixed;
+    z-index: 10;
+
 
     &__logo{
         @include mixins.value-images(url("../img/logo.png"));

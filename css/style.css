@@ -20,9 +20,11 @@
   align-items: center;
   width: 100px;
   height: 64px;
+  background-color: rgb(255, 56, 92);
   margin-right: 10px;
   font-size: 2rem;
-  font-family: fantasy;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
   color: rgb(240, 241, 242);
 }
 
@@ -39,10 +41,39 @@
   filter: brightness(0.5);
 }
 
+.info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 15px 0;
+}
+.info__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 10px;
+  min-height: 400px;
+}
+.info__title {
+  margin: 10px;
+}
+.info__text {
+  margin: 10px;
+}
+
 * {
   box-sizing: border-box;
   border: 0;
   margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  text-align: justify;
 }
 
 h1 {

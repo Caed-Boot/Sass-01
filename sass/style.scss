@@ -2,15 +2,21 @@
 @use 'variables';
 @use 'mixins';
 @use 'hero';
+@use 'info';
 
 *{
     box-sizing: border-box;
     border: 0;
     margin: 0;
+    background-color: rgb(255,255,255);
+    font-family: 'Poppins', sans-serif;
 }
 
+p {
+    text-align: justify;
+}
 
-h1 {
+h1{
     color: red;
     text-align: center;
 }

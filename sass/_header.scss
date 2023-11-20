@@ -17,9 +17,11 @@
     &__title {
         @include mixins.flexbox(flex-start, center);
         @include mixins.sizes(100px, 64px);
+        background-color: variables.$redColor;
         margin-right: 10px;
         font-size: 2rem;
-        font-family:fantasy;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
         color: rgb(240, 241, 242);
     }
 

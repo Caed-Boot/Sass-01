@@ -1,0 +1,26 @@
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        border: 1px solid black;
+        border-radius: 10px;
+        min-height: 400px;
+    }
+
+    &__title{
+        margin: 10px;
+    }
+
+    &__text {
+        margin: 10px;
+    }
+}

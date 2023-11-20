@@ -7,6 +7,7 @@
   background-color: rgb(255, 56, 92);
   position: fixed;
   z-index: 10;
+  box-shadow: 0 4px 10px 1px rgb(84, 52, 52);
 }
 .header__logo {
   background-image: url("../img/logo.png");

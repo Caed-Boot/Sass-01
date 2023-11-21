@@ -68,6 +68,7 @@
 }
 .info__text {
   margin: 0 10px 10px 10px;
+  padding: 10px;
 }
 .info .info__title {
   color: rgb(247, 247, 247);
@@ -111,15 +112,59 @@
   border-radius: 0 0 10px 10px;
 }
 
+.memories {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 56, 92);
+  color: rgb(247, 247, 247);
+  height: 330px;
+  justify-content: space-between;
+}
+.memories .memories__images {
+  position: relative;
+}
+.memories__images, .memories__info {
+  padding: 20px;
+  text-align: left;
+}
+.memories .images-1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+.memories .images-2 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+.memories .images-3 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 90px;
+  left: 180px;
+}
+.memories .images-4 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 120px;
+  left: 240px;
+}
+
 * {
   box-sizing: border-box;
   border: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-}
-
-p {
-  text-align: justify;
 }
 
 h1 {

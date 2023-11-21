@@ -1,0 +1,35 @@
+@use 'mixins';
+@use 'variables';
+
+.memories {
+    display: variables.$flexProperty;
+    flex-direction: column;
+    background-color: variables.$redColor;
+    color: variables.$whiteColor;
+    height: 330px;
+    justify-content: space-between;
+
+    .memories__images {
+        position: relative;
+    }
+
+    &__images, &__info {
+        padding: 20px;
+        text-align: left;
+    } 
+
+    @for $i from 1 through 4{
+
+        .images-#{$i} {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: absolute;
+            top: 30px * $i;
+            left: 60px *$i;
+
+        }
+
+    }
+
+}

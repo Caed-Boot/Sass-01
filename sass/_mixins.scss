@@ -1,11 +1,13 @@
 
 
-@mixin value-images($urls) {
-    background-image: $urls;
+@mixin value-images{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
 
+@mixin set-image($urls){
+    background-image: $urls;
 }
 
 @mixin sizes($width, $height){

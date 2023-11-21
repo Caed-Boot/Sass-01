@@ -49,22 +49,25 @@
         margin-bottom: 10px;
     }
 
-    .info__image-one {
-        @include mixins.value-images(url("../img/fruhling.jpg"));
+    .info-design {
+        @include mixins.value-images;
         @include mixins.sizes (100%, 200px);
         border-radius: 0 0 10px 10px;
+    }
+
+
+
+
+    .info__image-one {
+        @include mixins.set-image(url("../img/fruhling.jpg"));
     }
 
     .info__image-two {
-        @include mixins.value-images(url("../img/landschaft_hotel2.jpg"));
-        @include mixins.sizes (100%, 200px);
-        border-radius: 0 0 10px 10px;
+        @include mixins.set-image(url("../img/landschaft_hotel2.jpg"));
     }
 
     .info__image-three {
-        @include mixins.value-images(url("../img/main_image.jpg"));
-        @include mixins.sizes (100%, 200px);
-        border-radius: 0 0 10px 10px;
+        @include mixins.set-image(url("../img/main_image.jpg"));
     }
 
 

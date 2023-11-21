@@ -21,6 +21,7 @@
     } 
 
     .memories-rectangle {
+        @include mixins.value-images;
         @include mixins.sizes(150px, 100px);
         box-shadow: 5px 5px 8px 0px rgb(46 46 46);
         position: absolute;
@@ -35,16 +36,16 @@
             
 
             @if $i == 1 {
-                @include mixins.value-images(url("../img/glucklich1.jpg"));
+                @include mixins.set-image(url("../img/glucklich1.jpg"));
                 z-index: 4;
             }@else if $i == 2 {
-                @include mixins.value-images(url("../img/glucklich-2.jpg"));
+                @include mixins.set-image(url("../img/glucklich-2.jpg"));
                 z-index: 3 ;
             }@else if $i == 3 {
-                @include mixins.value-images(url("../img/glucklich-3.jpg"));
+                @include mixins.set-image(url("../img/glucklich-3.jpg"));
                 z-index: 2 ;
             }@else if $i == 4 {
-                @include mixins.value-images(url("../img/glucklich-4.jpg"));
+                @include mixins.set-image(url("../img/glucklich-4.jpg"));
                 z-index: 1 ;
             }
 

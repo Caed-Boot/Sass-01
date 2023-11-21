@@ -5,7 +5,8 @@
 
     
     &__main-image{
-        @include mixins.value-images(url("../img/main_image.jpg"));
+        @include mixins.value-images;
+        @include mixins.set-image(url("../img/main_image.jpg"));
         @include mixins.sizes(100%, 250px);
         filter: brightness(0.5);
     }

@@ -1,0 +1,12 @@
+@use 'variables';
+@use 'mixins';
+
+
+.ratings {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 6rem;
+
+
+}

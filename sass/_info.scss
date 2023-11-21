@@ -50,7 +50,7 @@
     }
 
     .info__image-one {
-        @include mixins.value-images(url("../img/landschaft_slovenien.avif"));
+        @include mixins.value-images(url("../img/fruhling.jpg"));
         @include mixins.sizes (100%, 200px);
         border-radius: 0 0 10px 10px;
     }

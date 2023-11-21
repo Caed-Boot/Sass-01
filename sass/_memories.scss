@@ -6,27 +6,48 @@
     flex-direction: column;
     background-color: variables.$redColor;
     color: variables.$whiteColor;
-    height: 330px;
+    height: 22rem;
     justify-content: space-between;
+    gap: 20px;
 
     .memories__images {
         position: relative;
     }
+
 
     &__images, &__info {
         padding: 20px;
         text-align: left;
     } 
 
+    .memories-rectangle {
+        @include mixins.sizes(150px, 100px);
+        box-shadow: 5px 5px 8px 0px rgb(46 46 46);
+        position: absolute;
+        border-radius: 5px;
+    }
+
     @for $i from 1 through 4{
 
         .images-#{$i} {
-            width: 150px;
-            height: 150px;
-            background-color: red;
-            position: absolute;
-            top: 30px * $i;
-            left: 60px *$i;
+            top: 20px * $i;
+            left: 60px * $i;
+            
+
+            @if $i == 1 {
+                @include mixins.value-images(url("../img/glucklich1.jpg"));
+                z-index: 4;
+            }@else if $i == 2 {
+                @include mixins.value-images(url("../img/glucklich-2.jpg"));
+                z-index: 3 ;
+            }@else if $i == 3 {
+                @include mixins.value-images(url("../img/glucklich-3.jpg"));
+                z-index: 2 ;
+            }@else if $i == 4 {
+                @include mixins.value-images(url("../img/glucklich-4.jpg"));
+                z-index: 1 ;
+            }
+
 
         }
 

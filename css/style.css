@@ -155,9 +155,52 @@
 
 .ratings {
   display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin-top: 6rem;
+  min-height: 600px;
+  padding: 30px;
+  gap: 20px;
+}
+.ratings .ratings-design-1 {
+  grid-row: 1/span 2;
+}
+.ratings .ratings-design-2 {
+  grid-row: 4/span 2;
+}
+.ratings .ratings__header {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  padding: 15px;
+}
+.ratings .ratings__header-container {
+  margin-left: 20px;
+}
+.ratings .ratings__content {
+  padding: 15px;
+}
+.ratings .ratings__img-design {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.ratings .ratings__img-1 {
+  background-image: url(../img/glucklich-1.jpg);
+}
+.ratings .ratings__img-2 {
+  background-image: url(../img/glucklich-2.jpg);
+}
+.ratings .ratings__img-3 {
+  background-image: url(../img/glucklich-3.jpg);
+}
+.ratings__block {
+  background-color: rgb(247, 247, 247);
+  border-radius: 20px;
+  box-shadow: 0 2px 6px 2px #d4d4d4;
 }
 
 * {

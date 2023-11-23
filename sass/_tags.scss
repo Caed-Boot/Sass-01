@@ -1,0 +1,36 @@
+@use 'mixins';
+@use 'variables';
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+
+
+    &__design {
+        padding: 25px;
+    }
+
+    &__img {
+        @include mixins.sizes(32px, 32px);
+        @include mixins.value-images;
+    }
+    
+    &-img-1 {
+        @include mixins.set-image(url("https://www.flaticon.es/icono-gratis/revision_3168622?term=hotel&page=1&position=10&origin=search&related_id=3168622"))
+    }
+
+    &-img-2 {
+        @include mixins.set-image(url("https://www.flaticon.es/icono-gratis/verificar_5254524?term=verificar&page=1&position=8&origin=search&related_id=5254524"))
+    }
+
+    &-img-3 {
+        @include mixins.set-image(url("https://www.flaticon.es/icono-gratis/configuraciones_992668?term=ajustes&page=1&position=10&origin=search&related_id=992668"))
+    }
+
+
+
+}
+

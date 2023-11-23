@@ -6,7 +6,7 @@
     
     &__main-image{
         @include mixins.value-images;
-        @include mixins.set-image(url("../img/main_image.jpg"));
+        @include mixins.set-image(url("https://waybird.imgix.net/lodge_images/images/000/088/815/original/strand-hotel-5.jpg?w=1420&h=946&crop=center%20center&fit=min&dpr=1&q=50&auto=format"));
         @include mixins.sizes(100%, 250px);
         filter: brightness(0.5);
     }

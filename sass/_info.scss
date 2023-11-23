@@ -59,15 +59,15 @@
 
 
     .info__image-one {
-        @include mixins.set-image(url("../img/fruhling.jpg"));
+        @include mixins.set-image(url("https://www.hotel-forster.at/typo3conf/ext/bn_typo_dist/Resources/Public/client/Bilder/Forster/Hotel-Winter-mit-Pool.jpg"));
     }
 
     .info__image-two {
-        @include mixins.set-image(url("../img/landschaft_hotel2.jpg"));
+        @include mixins.set-image(url("https://p6.focus.de/img/fotos/id_13449906/forsthofgut-1-titel.jpg?im=Resize%3D%28800%2C533%29&impolicy=perceptual&quality=mediumHigh&hash=cd8868ecaab80d89f746c29be5c82878a4f4bccaa7a119401b49fb31ce6f1c93"));
     }
 
     .info__image-three {
-        @include mixins.set-image(url("../img/main_image.jpg"));
+        @include mixins.set-image(url("https://top-private-hotels.com/files/wys/users/3/2018/Kronthaler%20neu/VAI_14.06.12_0315.jpg"));
     }
 
 

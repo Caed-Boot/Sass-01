@@ -38,10 +38,36 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("../img/main_image.jpg");
+  background-image: url("https://waybird.imgix.net/lodge_images/images/000/088/815/original/strand-hotel-5.jpg?w=1420&h=946&crop=center%20center&fit=min&dpr=1&q=50&auto=format");
   width: 100%;
   height: 250px;
   filter: brightness(0.5);
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.tags__design {
+  padding: 25px;
+}
+.tags__img {
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tags-img-1 {
+  background-image: url("https://www.flaticon.es/icono-gratis/revision_3168622?term=hotel&page=1&position=10&origin=search&related_id=3168622");
+}
+.tags-img-2 {
+  background-image: url("https://www.flaticon.es/icono-gratis/verificar_5254524?term=verificar&page=1&position=8&origin=search&related_id=5254524");
+}
+.tags-img-3 {
+  background-image: url("https://www.flaticon.es/icono-gratis/configuraciones_992668?term=ajustes&page=1&position=10&origin=search&related_id=992668");
 }
 
 .info {
@@ -93,13 +119,13 @@
   border-radius: 0 0 10px 10px;
 }
 .info .info__image-one {
-  background-image: url("../img/fruhling.jpg");
+  background-image: url("https://www.hotel-forster.at/typo3conf/ext/bn_typo_dist/Resources/Public/client/Bilder/Forster/Hotel-Winter-mit-Pool.jpg");
 }
 .info .info__image-two {
-  background-image: url("../img/landschaft_hotel2.jpg");
+  background-image: url("https://p6.focus.de/img/fotos/id_13449906/forsthofgut-1-titel.jpg?im=Resize%3D%28800%2C533%29&impolicy=perceptual&quality=mediumHigh&hash=cd8868ecaab80d89f746c29be5c82878a4f4bccaa7a119401b49fb31ce6f1c93");
 }
 .info .info__image-three {
-  background-image: url("../img/main_image.jpg");
+  background-image: url("https://top-private-hotels.com/files/wys/users/3/2018/Kronthaler%20neu/VAI_14.06.12_0315.jpg");
 }
 
 .memories {
@@ -130,43 +156,35 @@
 }
 .memories .images-1 {
   top: 20px;
-  left: 60px;
-  background-image: url("../img/glucklich1.jpg");
+  left: 55px;
+  background-image: url("https://www.kirche-und-leben.de/fileadmin/redaktion/bild/2017/10/Familie1130.jpg");
   z-index: 4;
 }
 .memories .images-2 {
   top: 40px;
-  left: 120px;
-  background-image: url("../img/glucklich-2.jpg");
+  left: 110px;
+  background-image: url("https://www.planet-wissen.de/gesellschaft/familie/patchwork_familien/introfamiliengnormgjpg100~_v-HintergrundL.jpg");
   z-index: 3;
 }
 .memories .images-3 {
   top: 60px;
-  left: 180px;
-  background-image: url("../img/glucklich-3.jpg");
+  left: 165px;
+  background-image: url("https://www.urlaubstracker.de/wp-content/uploads/2021/12/familie-am-strand.jpg");
   z-index: 2;
 }
 .memories .images-4 {
   top: 80px;
-  left: 240px;
-  background-image: url("../img/glucklich-4.jpg");
+  left: 220px;
+  background-image: url("https://www.emotion.de/sites/www.emotion.de/files/styles/article_lead/public/familie_in_natur.jpg?itok=rBb6LWlZ");
   z-index: 1;
 }
 
 .ratings {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
+  grid-auto-columns: auto;
   margin-top: 6rem;
-  min-height: 600px;
   padding: 30px;
   gap: 20px;
-}
-.ratings .ratings-design-1 {
-  grid-row: 1/span 2;
-}
-.ratings .ratings-design-2 {
-  grid-row: 4/span 2;
 }
 .ratings .ratings__header {
   display: flex;
@@ -180,6 +198,9 @@
 .ratings .ratings__content {
   padding: 15px;
 }
+.ratings .ratings__content h3 {
+  margin-bottom: 10px;
+}
 .ratings .ratings__img-design {
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,13 +210,13 @@
   border-radius: 50%;
 }
 .ratings .ratings__img-1 {
-  background-image: url(../img/glucklich-1.jpg);
+  background-image: url(https://static.leonardo-hotels.com/image/leonardohotelbucharestcitycenter_room_comfortdouble2_2022_4000x2600_7e18f254bc75491965d36cc312e8111f_1200x780_mobile_3.jpeg);
 }
 .ratings .ratings__img-2 {
-  background-image: url(../img/glucklich-2.jpg);
+  background-image: url(https://www.profilebakery.com/wp-content/uploads/2023/04/women-AI-Profile-Picture.jpg);
 }
 .ratings .ratings__img-3 {
-  background-image: url(../img/glucklich-3.jpg);
+  background-image: url(https://www.profilebakery.com/wp-content/uploads/2023/04/AI-Profile-Picture.jpg);
 }
 .ratings__block {
   background-color: rgb(247, 247, 247);

@@ -32,20 +32,20 @@
 
         .images-#{$i} {
             top: 20px * $i;
-            left: 60px * $i;
+            left: 55px * $i;
             
 
             @if $i == 1 {
-                @include mixins.set-image(url("../img/glucklich1.jpg"));
+                @include mixins.set-image(url("https://www.kirche-und-leben.de/fileadmin/redaktion/bild/2017/10/Familie1130.jpg"));
                 z-index: 4;
             }@else if $i == 2 {
-                @include mixins.set-image(url("../img/glucklich-2.jpg"));
+                @include mixins.set-image(url("https://www.planet-wissen.de/gesellschaft/familie/patchwork_familien/introfamiliengnormgjpg100~_v-HintergrundL.jpg"));
                 z-index: 3 ;
             }@else if $i == 3 {
-                @include mixins.set-image(url("../img/glucklich-3.jpg"));
+                @include mixins.set-image(url("https://www.urlaubstracker.de/wp-content/uploads/2021/12/familie-am-strand.jpg"));
                 z-index: 2 ;
             }@else if $i == 4 {
-                @include mixins.set-image(url("../img/glucklich-4.jpg"));
+                @include mixins.set-image(url("https://www.emotion.de/sites/www.emotion.de/files/styles/article_lead/public/familie_in_natur.jpg?itok=rBb6LWlZ"));
                 z-index: 1 ;
             }
 

@@ -1,6 +1,11 @@
 @use 'mixins';
 @use 'variables';
 
+.cards__title {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
 .info {
     display: variables.$flexProperty;
     flex-direction: column ;
@@ -10,9 +15,6 @@
     margin: 50px 0;
     gap: 20px;
 
-    .cards__title {
-        font-size: 1.8rem;
-    }
 
     &__container {
         display: variables.$flexProperty;

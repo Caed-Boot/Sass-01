@@ -1,0 +1,65 @@
+@use 'variables';
+@use 'mixins';
+
+.footer {
+    display: variables.$flexProperty;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  variables.$redColor;
+    height: 200px;
+    margin-top: 2em;
+    padding: 20px;
+
+
+    &__social {
+        display: variables.$flexProperty;
+        justify-content: space-around;
+        gap: 15px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px ;
+        font-size: 1em;
+        color: white
+    }
+
+    &-text {
+        color: variables.$whiteColor;
+        
+        transition: color 0.5s ease;
+    }
+
+    &__text:hover {
+        color: rgb(138, 138, 138);
+    }
+
+    .social-design {
+        @include mixins.value-images;
+        @include mixins.sizes(32px, 32px)
+    }
+
+    .social-item-1 {
+        @include mixins.set-image(url("../img/icons/facebook.png"))
+    }
+
+    .social-item-2 {
+        @include mixins.set-image(url("../img/icons/gorjeo.png"))
+    }
+
+    .social-item-3 {
+        @include mixins.set-image(url("../img/icons/instagram.png"))
+    }
+
+    .social-item-4 {
+        @include mixins.set-image(url("../img/icons/social.png"))
+    }
+
+    .social-item-5 {
+        @include mixins.set-image(url("../img/icons/linkedin.png"))
+    }
+
+}

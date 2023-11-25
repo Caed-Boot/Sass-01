@@ -80,6 +80,11 @@
   background-image: url("../img/icons/configuraciones.png");
 }
 
+.cards__title {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+}
+
 .info {
   display: flex;
   flex-direction: column;
@@ -87,9 +92,6 @@
   width: 100%;
   margin: 50px 0;
   gap: 20px;
-}
-.info .cards__title {
-  font-size: 1.8rem;
 }
 .info__container {
   display: flex;
@@ -269,6 +271,59 @@
 }
 .btn__title {
   margin-bottom: 1em;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 56, 93);
+  height: 200px;
+  margin-top: 2em;
+  padding: 20px;
+}
+.footer__social {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.footer__info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 1em;
+  color: white;
+}
+.footer-text {
+  color: rgb(247, 247, 247);
+  transition: color 0.5s ease;
+}
+.footer__text:hover {
+  color: rgb(138, 138, 138);
+}
+.footer .social-design {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 32px;
+  height: 32px;
+}
+.footer .social-item-1 {
+  background-image: url("../img/icons/facebook.png");
+}
+.footer .social-item-2 {
+  background-image: url("../img/icons/gorjeo.png");
+}
+.footer .social-item-3 {
+  background-image: url("../img/icons/instagram.png");
+}
+.footer .social-item-4 {
+  background-image: url("../img/icons/social.png");
+}
+.footer .social-item-5 {
+  background-image: url("../img/icons/linkedin.png");
 }
 
 * {

@@ -5,9 +5,33 @@
     display: variables.$flexProperty;
     flex-direction: column;
     align-items: center;
+    margin-top: 2em;
 
     &__container {
-        @include mixins.sizes(200px, 150px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include mixins.sizes(200px, 50px);
         background-color: variables.$redColor;
+        border-radius: 10px;
+
+
+        transition: background-color 0.5s ease, box-shadow 0.5s linear;
     }
+
+    &__container:hover {
+        background-color: rgb(230, 49, 82);
+        box-shadow: 0 2px 0 1px rgb(199, 199, 199);
+    }
+
+    a {
+        color: variables.$whiteColor;
+        text-decoration: none;
+    }
+    
+    &__title {
+        margin-bottom: 1em;
+    }
+
+
 }

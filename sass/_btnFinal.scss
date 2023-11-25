@@ -1,0 +1,13 @@
+@use 'mixins';
+@use 'variables';
+
+.btn {
+    display: variables.$flexProperty;
+    flex-direction: column;
+    align-items: center;
+
+    &__container {
+        @include mixins.sizes(200px, 150px);
+        background-color: variables.$redColor;
+    }
+}

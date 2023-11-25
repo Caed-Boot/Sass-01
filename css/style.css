@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("../img/logo.png");
+  background-image: url("../img/icons/logo.png");
   width: 64px;
   height: 64px;
 }
@@ -168,27 +168,28 @@
   grid-row: 1/5;
 }
 .memories__img-2 {
-  background-image: url("https: //www.planet-wissen.de/gesellschaft/familie/patchwork_familien/introfamiliengnormgjpg100~_v-HintergrundL.jpg");
+  background-image: url("https://www.emotion.de/sites/www.emotion.de/files/styles/article_lead/public/familie_in_natur.jpg?itok=rBb6LWlZ");
   grid-column: 4/6;
   grid-row: 1/5;
 }
 .memories__img-3 {
-  background-image: url("https://www.kirche-und-leben.de/fileadmin/redaktion/bild/2017/10/Familie1130.jpg");
+  background-image: url("https://media.licdn.com/dms/image/C4E12AQHavESyQs138w/article-cover_image-shrink_720_1280/0/1634138316225?e=2147483647&v=beta&t=0f1WI61-e94VsQXfMYsM-ecTGarVUKhXIyQ5m1aGgDo");
   grid-column: 1/3;
   grid-row: 5/-1;
 }
 .memories__img-4 {
-  background-image: url("https://www.kirche-und-leben.de/fileadmin/redaktion/bild/2017/10/Familie1130.jpg");
+  background-image: url("https://ich.unesco.org/img/photo/thumb/12629-BIG.jpg");
+  background-position: top;
   grid-column: 3/6;
   grid-row: 5/8;
 }
 .memories__img-5 {
-  background-image: url("https://www.kirche-und-leben.de/fileadmin/redaktion/bild/2017/10/Familie1130.jpg");
+  background-image: url("https://img.freepik.com/fotos-kostenlos/familie-mit-zwei-kindern-die-ihren-tag-im-schwimmbad-geniessen_23-2149025480.jpg");
   grid-column: 6/8;
   grid-row: 1/4;
 }
 .memories__img-6 {
-  background-image: url("https://www.kirche-und-leben.de/fileadmin/redaktion/bild/2017/10/Familie1130.jpg");
+  background-image: url("https://www.nationalpark-bayerischer-wald.bayern.de/besucher/mit_kinder/pic/wandern_tfg_familie_1280x720.jpg");
   grid-column: 6/8;
   grid-row: 4/8;
 }
@@ -240,6 +241,17 @@
   background-color: rgb(247, 247, 247);
   border-radius: 20px;
   box-shadow: 0 2px 6px 2px #d4d4d4;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn__container {
+  width: 200px;
+  height: 150px;
+  background-color: rgb(255, 56, 92);
 }
 
 * {

@@ -15,7 +15,7 @@
 
     &__logo{
         @include mixins.value-images;
-        @include mixins.set-image(url("../img/logo.png"));
+        @include mixins.set-image(url("../img/icons/logo.png"));
         @include mixins.sizes (64px, 64px)
     }
 

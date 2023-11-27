@@ -4,11 +4,12 @@
 .memories {
     display: variables.$flexProperty;
     flex-direction: column;
-    background-color: variables.$redColor;
-    color: variables.$whiteColor;
     height: auto;
     justify-content: space-between;
+    margin-top: 5rem ;
     gap: 20px;
+    background-color: variables.$redColor;
+    color: variables.$whiteColor;
 
     &__grid {
         display: grid;

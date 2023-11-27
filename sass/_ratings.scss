@@ -5,21 +5,9 @@
 .ratings {
     display: grid;
     grid-auto-columns: auto;
-    margin-top: 6rem;
+    margin-top: 8rem;
     padding: 30px;
     gap: 20px;
-
-    // .ratings-design-1 {
-    //     grid-row: 1 / span 2;
-    // }
-
-    // .ratings-design-2 {
-    //     grid-row: 2 / span 1;
-    // }
-
-    // .ratings-design-3 {
-    //     grid-row: 3 / span 1;
-    // }
 
 
     .ratings__header {

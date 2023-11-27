@@ -1,19 +1,22 @@
 @use 'mixins';
 @use 'variables';
 
+.message {
+    margin-top: 5em;
+}
+
 .tags {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(350px, 1fr)
+    );
+    gap: 15px;
     margin-top: 4em;
     background-color: #fafafa;
 
     h1 {
         margin-top: 1em;
-    }
-
-    &__title {
-        margin: 10px 10px 10px 0;
     }
 
     &__text {

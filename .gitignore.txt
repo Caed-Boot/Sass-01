@@ -1,9 +1,12 @@
 .DS_store
 
-node_modules
+/node_modules
 
 *.txt
 
 .env
 
-.sass-cache
+.sass-cache/
+*.css.map
+*.sass.map
+*scss.map
